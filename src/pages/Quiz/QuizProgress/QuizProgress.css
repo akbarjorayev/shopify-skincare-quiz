@@ -1,0 +1,40 @@
+.quiz_progress {
+  position: absolute;
+  top: 0;
+  right: -14px;
+  transform: translateX(100%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(
+    #aaddf3 0deg var(--quiz-progress-deg),
+    #eef7fb var(--quiz-progress-deg) 360deg
+  );
+}
+
+.quiz_progress::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.quiz_progress span {
+  font-family: Proxima Nova;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+:root {
+  --quiz-progress-deg: 50deg;
+}

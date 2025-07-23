@@ -1,0 +1,20 @@
+.quiz_question_text {
+  font-family: Proxima Nova;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.quiz_question_options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.quiz_question_options button {
+  min-width: 190px;
+  text-align: left;
+  padding-left: 20px;
+}
