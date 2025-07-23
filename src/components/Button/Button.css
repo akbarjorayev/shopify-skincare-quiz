@@ -1,0 +1,26 @@
+button {
+  padding: 14px 32px;
+  border: 0;
+  border-radius: 8px;
+  font-family: Proxima Nova;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+button.filled {
+  background-color: #c3edff !important;
+}
+
+button.outlined_default {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+button.outlined_color {
+  border: 1px solid #5bc1ed;
+  background-color: transparent;
+}
